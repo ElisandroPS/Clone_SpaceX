@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ​Link para download dos arquivos visuais: https://drive.google.com/drive/folders/1hvRsR5VANEGh-P3pfN4Mu8Wsj8ukzRTK?usp=sharing
+
+Link da LP para você de inspirar: https://onebitx.netlify.app
+
+Cor de hover de links: #b9b9b9
+
+Cor de copyright da obc no footer: #555252
+
+Cor do item da tabela: #d8d8d8
+
+Uma dica, nós utilizamos tabelas dentro de carrossel na parte da falcon9, carrossel você já viu mas tabela não, então está aqui a parte de table do bootstrap para facilitar um pouco sua vida 😀 https://getbootstrap.com/docs/5.1/content/tables/ */
+
+
+/* Início da edição da página home */
+
+.header-home{
+    min-height: 100vh;
+    background-image: url(../img/01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-arrowDown{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.text-home{
+    margin-left:10%;
+    margin-top: 15%;
+    /* border: 1px solid red; */
+    min-width: 240px;
+    height:auto;
+}
+
+body h1, p{
+    color:white;
+}
+
+body .btn-home{
+    border-radius: 4px;
+    width: 160px;
+    margin-top: 4%;
+    font-size: 15px;
+    border: 1px solid #d8d8d8;
+    color: #d8d8d8;
+}
+
+body .btn-home:hover{
+    background-color: #d8d8d8;
+}
+
+
+.text-center1{
+    margin-left: 40.5%;
+    padding-bottom: 15%;
+    width: 100px;
+    height: auto;
+    /* border: 1px solid yellow; */
+
+}
+
+
+.img-arrowDown{
+    /* border: 1px solid red; */
+    margin-bottom: 2%;
+}
+
+/* Início da div segunda imagem da página home */
+
+.imgbacground{
+    min-height: 100vh;
+    background-image: url(../img/03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.img-home{
+    width: 600px;
+    padding-top: 14%;
+    margin-left:10%;
+    /* border: 1px solid red; */
+    min-width: 240px;
+    height:auto;
+}
+
+
+
+
+/* Início da div2 terceira imagem da página home */
+
+.imgbackground2{
+    min-height: 100vh;
+    background-image: url(../img/02.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img1-home{
+    width: 600px;
+    padding-top: 14%;
+    margin-left:10%;
+    /* border: 1px solid red; */
+    min-width: 240px;
+    height:auto;
+}
+
+
+
+
+/* Início da div3 quarta imagem da página home */
+
+.background3{
+    min-height: 100vh;
+    background-image: url(../img/04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2-home{
+    width: 600px;
+    padding-top: 14%;
+    margin-left:10%;
+    /* border: 1px solid red; */
+    min-width: 240px;
+    height:auto;
+}
+
+/* Coloquei esse mediaquery para ajudar na responsividade da página home, devido ao bloco da classe img-home ter ficado a largura de 600px */
+@media(max-width:672px){
+    .img-home,.img1-home, .img2-home{
+        width: 250px;
+    }
+    
+    .img1-home > h1, .img1-home > p{
+        color: red;
+    }
+
+}
+
+
+/* Footer da home */
+.footer-home{
+    font-size: 0.75em;
+    padding: 3%;
+    background-color: black;
+    
+    
+}
+
+.copyOBC{
+    color: #555252;
+}
+
+.footer-home >a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* START */
+/* FALCON PAGE */
+
+/* Início das edições da página falcon */
+
+.header-falcon{
+    min-height: 100vh;
+    background-image: url(../img/111.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-falcon{
+    padding-top: 6%;
+}
+
+.h1-falcon{
+    color: white;
+    font-size: 6em;
+}
+
+.p-falcon{
+    color: white;
+    font-weight:600;
+    font-size: 1.3em;
+}
+
+/* edição da primeira div, números */
+
+.dark{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5%  0%;
+}
+
+
+ .h1-dark{
+    font-size: 70px;
+    color: white;
+}
+.h6-dark{
+    font-size: 20px;
+    color: white;
+
+}
+/* Início da edição da segunda div  */
+
+.imgbacground-falcon{
+    min-height: 100vh;
+    background-image: url(../img/22.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-falcon >p {
+    width: 500px;
+    height: 500px;
+    margin-left: 10%;
+    padding-top: 10%;
+}
+
+.container-falcon{
+    background-color: black;
+}
+
+
+@media(max-width:672px){
+    .img-falcon >p {
+        width: 250px;
+        height: 250px;
+        margin-left: 10%;
+        padding-top: 10%;
+    }
+    
+
+}
