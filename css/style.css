@@ -577,3 +577,259 @@ body .btn-home:hover{
 
     }
 }
+
+/* Início da página Human */
+
+/* Imagem da Header */
+
+.header-human{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    background-image: url(../img/001.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -4%;
+}
+
+.img-arrowDown1{
+    width: 200px;
+    height: 90px;
+    margin-bottom: 5%;
+    padding-bottom: -5%;
+    background-color: transparent;
+}
+/* Tamanho do texto do Header */
+
+.h1-human{
+    font-size: 7.5em;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.p-human{
+    font-size: 2em;
+    font-weight: 100;
+
+}
+/* texto interativo entre o header e a div-1 */
+
+.pp-human{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+
+.pp-human >p{
+    width: 55%;
+    font-size: 20px;
+    color: #b9b9b9;
+}
+
+.pp-human > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Segunda imagem, Terra. */
+.imgbacground-human{
+    background-image: url(../img/002.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img-human{
+    margin-left: 55%;
+    padding-top: 15%;
+}
+
+/* Terceira imagem, satélite. */
+.imgbackground2-human{
+    background-image: url(../img/003.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img2-human{
+    margin-left: 55%;
+    padding-top: 15%;
+}
+
+
+/* Quarta imagem, lua. */
+.background3-human{
+    background-image: url(../img/004.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* Quinta imagem, Marte */
+.background4-human{
+    background-image: url(../img/005.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img3-human{
+    margin-left: 5%;
+    padding-top: 10%;
+}
+
+/* edição dos Butões */
+.btn-human{
+    width:180px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+}
+
+.btn-human:hover{
+    background-color: #b9b9b9;
+    color: black;
+}
+
+/* Tamanho das letras */
+main >div>div> H1{
+    font-size: 60px;
+}
+
+
+/* Responsividade da página human */
+@media(max-width:920px){
+    .h1-human{
+    font-size: 5em;
+    }
+    .text-home{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex:1 0 200px;
+        margin-left: 1.5%;
+    }
+}
+
+
+@media(max-width:674px){
+
+        .text-home{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            flex:1 0 200px;
+            margin-left: 2%;
+        }
+        
+        .h1-human{
+            font-size: 2.5em;
+            }
+
+        .p-human{
+            font-size:1.2em;
+        }
+
+        .pp-human{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 30vh;
+        }
+
+        .pp-human >p{
+            padding-top: 10%;
+            width: 60%;
+            font-size: 0.9em;
+            color: #b9b9b9;
+        }
+
+        main >div>div> H1{
+            font-size: 1.3em;
+        }
+
+
+        .btn-human{
+            font-size: 0.6em;
+            width:90px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid #b9b9b9;
+            border-radius: 5px;
+        }
+        
+
+}
+
+@media(max-width:300px){
+    .pp-human{
+      font-size: 0.75em;
+    }
+
+    /* .pp-human >p{
+        width:auto;
+    } */
+    
+    .h1-human{
+        font-size: 1.75em;
+        }
+
+    .p-human{
+        font-size:0.6em;
+    }
+    
+
+    .img-human{
+        margin-left: 5%;
+    }
+    .img-human > p{
+        font-size: 0.75em;
+    }
+
+    .img1-human{
+        margin-left: 2%;
+    }
+
+    .img1-human > p{
+        font-size: 0.75em;
+    }
+
+    .img2-human{
+        margin-left: 5%;
+    }
+
+    .img2-human > p{
+        font-size: 0.75em;
+    }
+
+    .img3-human{
+        margin-left: 2%;
+    }
+
+    .img3-human >p {
+        font-size: 0.75em;
+    }
+
+}
