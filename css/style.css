@@ -785,12 +785,10 @@ main >div>div> H1{
 
 @media(max-width:300px){
     .pp-human{
-      font-size: 0.75em;
+        margin-top: -20px;
+        font-size: 0.75em;
     }
 
-    /* .pp-human >p{
-        width:auto;
-    } */
     
     .h1-human{
         font-size: 1.75em;
